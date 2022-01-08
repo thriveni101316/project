@@ -1,25 +1,262 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="4" total="13" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-23T08:44:34 IST" name="Default suite" finished-at="2021-12-23T08:44:35 IST" duration-ms="1448">
+  <suite name="Default suite" duration-ms="174871" started-at="2022-01-08T09:38:31 IST" finished-at="2022-01-08T09:41:26 IST">
     <groups>
     </groups>
-    <test started-at="2021-12-23T08:44:34 IST" name="Default test" finished-at="2021-12-23T08:44:35 IST" duration-ms="1448">
-      <class name="com.testscenarios.fgagadg">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testscenarios.fgagadg@4310d43]" started-at="2021-12-23T08:44:34 IST" name="setUp" finished-at="2021-12-23T08:44:35 IST" duration-ms="1317" status="PASS">
+    <test name="Default test" duration-ms="174871" started-at="2022-01-08T09:38:31 IST" finished-at="2022-01-08T09:41:26 IST">
+      <class name="com.testscenarios.ClassTemplate">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.testscenarios.ClassTemplate@6cc7b4de]" name="beforeClass" is-config="true" duration-ms="8611" started-at="2022-01-08T09:38:31 IST" finished-at="2022-01-08T09:38:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.testscenarios.fgagadg@4310d43]" started-at="2021-12-23T08:44:35 IST" name="test" finished-at="2021-12-23T08:44:35 IST" duration-ms="74" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_023_MobileNumberFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.ClassTemplate@6cc7b4de]" name="TC_023_MobileNumberFunctionality" duration-ms="39005" started-at="2022-01-08T09:38:42 IST" data-provider="getExcelData" finished-at="2022-01-08T09:39:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9685741204]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jio]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[randomnum1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[J&K]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testscenarios.fgagadg@4310d43]" started-at="2021-12-23T08:44:35 IST" name="tearDown" finished-at="2021-12-23T08:44:35 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- TC_023_MobileNumberFunctionality -->
+        <test-method status="PASS" signature="TC_023_MobileNumberFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.ClassTemplate@6cc7b4de]" name="TC_023_MobileNumberFunctionality" duration-ms="16934" started-at="2022-01-08T09:39:21 IST" data-provider="getExcelData" finished-at="2022-01-08T09:39:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9685741205]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BSNL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[randomnum2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Punjab]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.testscenarios.fgagadg -->
+        </test-method> <!-- TC_023_MobileNumberFunctionality -->
+        <test-method status="PASS" signature="TC_023_MobileNumberFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.ClassTemplate@6cc7b4de]" name="TC_023_MobileNumberFunctionality" duration-ms="15772" started-at="2022-01-08T09:39:38 IST" data-provider="getExcelData" finished-at="2022-01-08T09:39:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9685741206]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AIRTEL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[randomnum3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_023_MobileNumberFunctionality -->
+        <test-method status="PASS" signature="TC_023_MobileNumberFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.ClassTemplate@6cc7b4de]" name="TC_023_MobileNumberFunctionality" duration-ms="15537" started-at="2022-01-08T09:39:54 IST" data-provider="getExcelData" finished-at="2022-01-08T09:40:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9685741207]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BSNL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[randomnum4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kerala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_023_MobileNumberFunctionality -->
+        <test-method status="PASS" signature="TC_023_MobileNumberFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.ClassTemplate@6cc7b4de]" name="TC_023_MobileNumberFunctionality" duration-ms="15277" started-at="2022-01-08T09:40:09 IST" data-provider="getExcelData" finished-at="2022-01-08T09:40:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9685741208]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MTNL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[randomnum5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[J&K]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_023_MobileNumberFunctionality -->
+        <test-method status="PASS" signature="TC_023_MobileNumberFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.ClassTemplate@6cc7b4de]" name="TC_023_MobileNumberFunctionality" duration-ms="16265" started-at="2022-01-08T09:40:25 IST" data-provider="getExcelData" finished-at="2022-01-08T09:40:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9685741209]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jio]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[randomnum6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Punjab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_023_MobileNumberFunctionality -->
+        <test-method status="PASS" signature="TC_023_MobileNumberFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.ClassTemplate@6cc7b4de]" name="TC_023_MobileNumberFunctionality" duration-ms="15878" started-at="2022-01-08T09:40:41 IST" data-provider="getExcelData" finished-at="2022-01-08T09:40:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9685741202]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BSNL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[randomnum7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_023_MobileNumberFunctionality -->
+        <test-method status="PASS" signature="TC_023_MobileNumberFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.ClassTemplate@6cc7b4de]" name="TC_023_MobileNumberFunctionality" duration-ms="15084" started-at="2022-01-08T09:40:57 IST" data-provider="getExcelData" finished-at="2022-01-08T09:41:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9685741200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jio]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[randomnum8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kerala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_023_MobileNumberFunctionality -->
+        <test-method status="PASS" signature="TC_023_MobileNumberFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.ClassTemplate@6cc7b4de]" name="TC_023_MobileNumberFunctionality" duration-ms="14101" started-at="2022-01-08T09:41:12 IST" data-provider="getExcelData" finished-at="2022-01-08T09:41:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9685741234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BSNL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[randomnum9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kerala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_023_MobileNumberFunctionality -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testscenarios.ClassTemplate@6cc7b4de]" name="afterMethod" is-config="true" duration-ms="235" started-at="2022-01-08T09:41:26 IST" finished-at="2022-01-08T09:41:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testscenarios.ClassTemplate -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
